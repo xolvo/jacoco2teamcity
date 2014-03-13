@@ -1,0 +1,21 @@
+{
+  "name": "jacoco2teamcity",
+  "version": "0.1.0",
+  "description": "Parse XML report from JaCoCo and print its content as TeamCity service messages to collect coverage stats",
+  "main": "bin",
+  "bin": {
+    "jacoco2teamcity": "bin/jacoco-parse-xml.js"
+  },
+  "dependencies": {
+    "xml2js": "~0.4.1",
+    "yargs": "~1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Alexander L.",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
